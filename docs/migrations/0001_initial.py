@@ -38,8 +38,8 @@ class Migration(migrations.Migration):
                 ('salary', models.IntegerField(default=0)),
                 ('in_time', models.DateTimeField(blank=True, null=True)),
                 ('out_time', models.DateTimeField(blank=True, null=True)),
-                ('dept', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='emp_app.department')),
-                ('designation', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='emp_app.designation')),
+                ('dept', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='docs.department')),
+                ('designation', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='docs.designation')),
             ],
         ),
     ]

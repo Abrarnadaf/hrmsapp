@@ -7,7 +7,7 @@ import django.utils.timezone
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('emp_app', '0002_remove_employee_in_time_remove_employee_out_time'),
+        ('docs', '0002_remove_employee_in_time_remove_employee_out_time'),
     ]
 
     operations = [
